@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    padding: 50px;
+    padding-top:0 ;
+}
+.logo{
+    font-size: larger;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.li ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+.btn button{
+    width: 100px;
+    height:50%;
+    background-color: black;
+    color: #fff;
+    
+}
+.banner{
+    width:100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 8px;
+    margin-top:15px;
+    padding: 50px;
+
+
+}
+.text{
+    width: 30%;
+    height: 50%;
+    padding: 20px;
+
+}
+.image{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 50px;
+
+}
+.image img{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 50px;
+   
+}
+.tex{
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}  
+.bt {
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    height: 150px;
+    font-size: medium;
+
+}
+.card{
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 15px;
+}
+.card img{
+    width: 40px;
+    height: 40px;
+}
+.card-wrapper{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.banner-2{
+    flex-direction: row-reverse;
+    align-items: center;
+}
+/* /* .our-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top:250px;
+    flex-wrap: wrap;
+    width: 100%;
+} */
+/* .our-wrapper span{
+    display: flex;
+    justify-content:center ;
+    position: relative;
+    bottom: 150px;
+    left: 500px;
+    font-size: xx-large;
+
+}  */
+  .our-wrapper{
+    margin-top: 250px;
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    object-fit: contain;
+  }
+  .our-wrapper span{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+
+  }
+  .ma{
+    margin-top: 0;
+  }
+
+ .hash{
+    font-weight:900;
+ }
+ .card{
+    border: 3px solid black;
+ }
+ .subscribe{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .te{
+    font-size: xx-large;
+    border: 2px solid purple;
+ }
+ .in{
+    font-weight: bolder;
+    color: gray;
+
+ }
+ .inp{
+    width: 200px;
+    height: fit-content;
+    border: 1px solid black;
+ }
+ .inp button{
+    color: #fff;
+    background-color: black;
+    height: 50px;
+
+ }
+ .footer{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+ }
+ .d1 span{
+    margin-bottom:50px ;
+ }
+
+ .d1{
+    width: 200px;
+ }
+ .d2 ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+ }
+ .q{
+    font-weight: bolder;
+ }
+ .r{
+    font-weight: bolder;
+ }
